@@ -102,18 +102,21 @@ header nav a {
 
 @media screen and (max-width: 800px) {
     header nav a {
-        margin-left: 26px;
-        display: 
+    margin-left: 26px;
+
     } 
 }
 
-@media screen and (min-width: 500px) {
-    header nav a  {
-        display: flex;
-        flex-direction: column;
-        border-bottom: 1px solid black;
+
+@media screen and (max-width: 500px) {
+     header nav a {
+         display: flex;
+         flex-direction: column;
+         margin: 40px 0;
+    
     } 
 }
+
 
 @media screen and (max-width: 800px) {
     header .logo {
@@ -123,6 +126,17 @@ header nav a {
         margin: 20px 0 40px 0; 
     } 
 }
+
+@media screen and (max-width: 500px) {
+    header .logo {
+        width: 160px;
+        order:1;
+        justify-content: center;
+        margin: 20px 0 20px 0; 
+    } 
+}
+
+.border
 
 .cta {
     display: flex;
@@ -216,23 +230,6 @@ button {
 .main-content-image {
 	margin-top: 35px;
 	margin-bottom: 35px;
-}
-
-@media screen and (max-width: 800px) {
-
-    .main-content-image img {
-                        width: 600px;
-    }
-}
-
-
-@media screen and (max-width: 500px) {
-
-    .main-content-image img {
-                        width: 460px;
-                        margin-left: 65px;
-                        margin-right: 65px;
-    }
 }
 
 .bottom-content {
